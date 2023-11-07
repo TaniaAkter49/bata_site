@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-header{
+    background-color: #f7f5f5;
+}
+.top-header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 20px;   
+}
+
+.h-ul{
+    display: flex;
+    gap: 10px;
+   
+}
+.h-ul li{
+    list-style: none;
+}
+.h-ul li a{
+    text-decoration: none;
+}
+/*--mobile device start*/
+@media screen and (max-width:576px) {
+    .top-header2{
+        
+        flex-direction: column;
+        line-height: 30px;
+     
+    }
+   
+    
+    
+}
+
+/*--mobile device end*/
+/*--medium device start--*/
+@media screen and(min-width:577px) and (max-width:576px) {
+    
+    
+}
+/*--medium device end--*/
+
+.bata-ul{
+    width: 90%;
+    margin:auto;
+}
+.top-ul{
+    display: flex;
+}
+.top-ul li{
+    list-style: none;
+    padding: 20px;
+    
+} 
+.top-ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+/* ul*/
+@media screen and (max-width:576px){
+    .top-ul{
+        display: none;
+    }
+}
+
+/* ul*/
+.big-img img{
+    height: 500px;
+    width: 100%;
+
+}
+.small-card{
+    display: flex;
+    gap: 15px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.s-card {
+    width: 25%;
+
+}
+.s-card img{
+    width: 100%;
+}
+.big-img2{
+    width: 90%;
+    margin: auto;
+}
+
+.big-img2 img{
+    width: 100%;
+    margin-top: 20px;
+}
+.middle-ul{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+.m-ul{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+.m-ul li{
+    list-style: none;
+}
+.m-ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.middle-ul p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 17px;
+    color: rgb(86, 83, 83);
+}
+.shooes-section{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 40px;
+}
+.shooes{
+    text-align: center;
+}
+.shooes img{
+    height: 200px;
+    width: 200px;
+}
+.shooes p{
+    font-size: 18px;
+}
+.big-card{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+.big-card h1{
+    padding: 20px;
+}
+.b-card{
+    display: flex;
+    gap: 30px;
+}
+.b-m-card{
+    width: 30%;
+}
+.b-m-card img{
+    width: 100%;
+}
+.b-m-c-text{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.shooes-section2{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.shooes-section2 .p2{
+    font-size: 30px;
+}
+.b-img{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.b-img1{
+    width: 50%;
+}
+.b-img1 img{
+    width: 100%;
+    height: 600px;
+}
+.Best-Seller{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.Best-Seller-p{
+    font-size: 25px;
+    padding: 20px;
+}
+.last-big-card{
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+}
+.last-big-card span{
+    font-size: 30px;
+    padding: 30px;
+}
+
+.b-m-card2 img{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
+.last-img{
+    width: 80%;
+    margin: auto;
+}
+.last-img-f{
+    display: flex;
+    gap: 30px;
+}
+.contact{
+    background-color: rgb(17, 17, 17);
+    color: white;
+    margin-top: 50px;
+    
+}
+.main-contact{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+
+}
+.contact1 p{
+    margin-top: 20px;
+    font-size: 20px;
+    
+    
+}
+.contact1 ul li{
+    list-style: none;
+    margin-top: 10px;
+
+}
+.contact1 ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.text-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.contact-img{
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.contact-img img{
+    height: 20px;
+}
+
+ .owl-nav{
+            display: none;
+        }
+        .owl-dots{
+            display: none;
+        }
+        .just{
+            display: flex;
+            padding-top: 10px;
+            justify-content: center;
+        }
+        .just li{
+            list-style: none;
+            padding-left: 2%;
+        }
+        .con{
+            color: #FFFFFF;
+            padding: 40px 0px 15px 0px;
+        }
+        .con ul li{
+            list-style: none;
+        }
+        .con ul li a{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+
+        /*======================================
+//--//-->   NAVBAR
+======================================*/
+
+.navbar-b {
+  transition: all .5s ease-in-out;
+  background-color: transparent;
+  padding-top: 1.563rem;
+  padding-bottom: 1.563rem;
+}
+
+.navbar-b.navbar-reduce {
+  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+}
+
+.navbar-b.navbar-trans .nav-item,
+.navbar-b.navbar-reduce .nav-item {
+  position: relative;
+  padding-right: 10px;
+  padding-left: 0;
+}
+
+.navbar-b.navbar-trans .nav-link,
+.navbar-b.navbar-reduce .nav-link {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-b.navbar-trans .nav-link:before,
+.navbar-b.navbar-reduce .nav-link:before {
+  content: '';
+  position: absolute;
+  margin-left: 0px;
+  width: 0%;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  transition: all 500ms ease;
+}
+
+.navbar-b.navbar-trans .nav-link:hover,
+.navbar-b.navbar-reduce .nav-link:hover {
+  color: #1B1B1B;
+}
+
+.navbar-b.navbar-trans .nav-link:hover:before,
+.navbar-b.navbar-reduce .nav-link:hover:before {
+  width: 70%;
+}
+
+.navbar-b.navbar-trans .show > .nav-link:before,
+.navbar-b.navbar-trans .active > .nav-link:before,
+.navbar-b.navbar-trans .nav-link.show:before,
+.navbar-b.navbar-trans .nav-link.active:before,
+.navbar-b.navbar-reduce .show > .nav-link:before,
+.navbar-b.navbar-reduce .active > .nav-link:before,
+.navbar-b.navbar-reduce .nav-link.show:before,
+.navbar-b.navbar-reduce .nav-link.active:before {
+  width: 70%;
+}
+
+.navbar-b.navbar-trans .nav-link:before {
+  background-color: #000;
+}
+
+.navbar-b.navbar-trans .nav-link:hover {
+  color: #000;
+}
+
+.navbar-b.navbar-trans .show > .nav-link,
+.navbar-b.navbar-trans .active > .nav-link,
+.navbar-b.navbar-trans .nav-link.show,
+.navbar-b.navbar-trans .nav-link.active {
+  color: #000;
+}
+
+.navbar-b.navbar-reduce {
+  transition: all .5s ease-in-out;
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-b.navbar-reduce .nav-link {
+  color: #000;
+}
+
+.navbar-b.navbar-reduce .nav-link:before {
+  background-color: #000;
+}
+
+.navbar-b.navbar-reduce .nav-link:hover {
+  color: #000;
+}
+
+.navbar-b.navbar-reduce .show > .nav-link,
+.navbar-b.navbar-reduce .active > .nav-link,
+.navbar-b.navbar-reduce .nav-link.show,
+.navbar-b.navbar-reduce .nav-link.active {
+  color: #000;
+}
+
+.navbar-b.navbar-reduce .navbar-brand {
+  color: #000;
+}
+
+.navbar-b.navbar-reduce .navbar-toggler span {
+  background-color: #000;
+}
+
+.navbar-b .navbar-brand {
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.navbar-b .navbar-nav .dropdown-item.show .dropdown-menu,
+.navbar-b .dropdown.show .dropdown-menu,
+.navbar-b .dropdown-btn.show .dropdown-menu {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  visibility: visible !important;
+}
+
+.navbar-b .dropdown-menu {
+  margin: 1.12rem 0 0;
+  border-radius: 0;
+}
+
+.navbar-b .dropdown-menu .dropdown-item {
+  padding: .7rem 1.7rem;
+  transition: all 500ms ease;
+}
+
+.navbar-b .dropdown-menu .dropdown-item:hover {
+  background-color: #000;
+  color: #000;
+  transition: all 500ms ease;
+}
+
+.navbar-b .dropdown-menu .dropdown-item.active {
+  background-color: #000;
+}
+
+/*--/ Hamburger Navbar /--*/
+
+.navbar-toggler {
+  position: relative;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: 0;
+}
+
+
+.navbar-toggler span:nth-child(1),
+.navbar-toggler span:nth-child(3) {
+  transition: -webkit-transform .35s ease-in-out;
+  transition: transform .35s ease-in-out;
+  transition: transform .35s ease-in-out, -webkit-transform .35s ease-in-out;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  opacity: 0.9;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+  height: 12px;
+  visibility: hidden;
+  background-color: transparent;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  opacity: 0.9;
+}
